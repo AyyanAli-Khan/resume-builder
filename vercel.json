@@ -8,8 +8,8 @@
       { "src": "resumePage.js", "use": "@vercel/static" }
     ],
     "routes": [
-      { "src": "/", "dest": "/index.html" },
-      { "src": "/resumePage", "dest": "/resumePage.html" }
+      { "src": "/", "dest": "./index.html" },
+      { "src": "/resumePage", "dest": "./resumePage.html" }
     ]
 }
 
