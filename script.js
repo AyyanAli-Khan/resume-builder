@@ -12,5 +12,5 @@ document.getElementById('resumeForm').addEventListener('submit', function(event)
     const resumeData = { name, email, phone, jobTitle, experience, education, skills };
     localStorage.setItem('resumeData', JSON.stringify(resumeData));
 
-    window.location.href = 'resumePage.html';
+    window.location.href = 'resume.html';
 });
